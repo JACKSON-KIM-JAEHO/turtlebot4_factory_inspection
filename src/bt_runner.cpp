@@ -1,10 +1,13 @@
 #include "behaviortree_cpp_v3/bt_factory.h"
-#include "turtlebot4_factory_inspection/move_to_target.hpp"
+#include "turtlebot4_factory_inspection/MoveToTarget.hpp"
+#include "turtlebot4_factory_inspection/IsArrivedAtTarget.hpp"
 #include "ament_index_cpp/get_package_share_directory.hpp"
 
 #include "rclcpp/rclcpp.hpp"  // ✅ ROS 2 init, shutdown 필요
 #include <chrono>
 #include <thread>
+
+using namespace turtlebot4_factory_inspection;
 
 int main(int argc, char **argv)
 {
@@ -14,6 +17,7 @@ int main(int argc, char **argv)
   // Behavior Tree 설정
   BT::BehaviorTreeFactory factory;
   factory.registerNodeType<MoveToTarget>("MoveToTarget");
+  factory.registerNodeType<IsArrivedAtTarget>("IsArrivedAtTarget");
 
   // XML 트리 파일 경로 얻기
   std::string pkg_path = ament_index_cpp::get_package_share_directory("turtlebot4_factory_inspection");

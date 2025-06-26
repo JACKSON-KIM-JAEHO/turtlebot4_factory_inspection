@@ -82,8 +82,8 @@ echo " - 소스: $CPP_FILE"
 
 # sources.cmake 자동 갱신
 if [ -f ./generate_sources.sh ]; then
-  ./generate_sources.sh > /dev/null
+  ./generate_sources.cmake > /dev/null
   echo "📄 sources.cmake 자동 갱신 완료"
 else
-  echo "ℹ️  generate_sources.sh 파일이 없어 sources.cmake는 갱신되지 않았습니다."
+  echo "sources.cmake는 갱신되지 않았습니다."
 fi
