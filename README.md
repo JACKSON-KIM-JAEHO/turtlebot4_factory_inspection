@@ -101,59 +101,59 @@
         ```
 ### When using the provided helper scripts (`add_bt_node.sh`, `generate_sources.sh`)
 
-    To simplify the BT node integration process, you can use our shell scripts to **automatically generate and register** new Behavior Tree (BT) nodes.   
+To simplify the BT node integration process, you can use our shell scripts to **automatically generate and register** new Behavior Tree (BT) nodes.   
 
-    1. Run the node creation script
+1. Run the node creation script
 
+  ```bash
+  ./add_bt_node.sh <NodeName>
+  ```
+  - Automatically create the `.cpp` file in `bt_nodes/` using a Behavior Tree template.
+  - Automatically update `sources.cmake` via `generate_sources.sh`.
+
+  2. What is done automatically by the script
+  - Add the source file
+    - Location: `bt_nodes/<NodeName>.cpp`
+    - Template based on `BT::CoroActionNode`
+  - Register the new source file in CMake
+    - `generate_sources.sh` is invoked to update `sources.cmake`
+    - No need to manually edit `sources.cmake`
+
+  3. What you still need to do manually
+  -  Add a header file
+      -  Location: `include/turtlebot4_factory_inspection/<NodeName>.hpp`
+      -  Only needed if your node has complex structure or external usage
+  - Register the node in the XML Behavior Tree
+    - File: `trees/main_tree.xml` 
+    - Add the tag ( Make sure the tag name matches the one used in C++ registration)
       ```bash
-      ./add_bt_node.sh <NodeName>
+      <TakePhoto/>
       ```
-      - Automatically create the `.cpp` file in `bt_nodes/` using a Behavior Tree template.
-      - Automatically update `sources.cmake` via `generate_sources.sh`.
+  - Register the node in C++
+    - File: `bt_runner.cpp`
+    - Add the factory registration line:
+      ```bash
+      factory.registerNodeType<TakePhoto>("TakePhoto");
+      ```
+  - Add new library dependencies
+    - Modify `CMakeLists.txt` as follows:
+      - Add to `find_package()`:
+        ```bash
+        find_package(OpenCV REQUIRED)
+        ```
+      - Add to `ament_target_dependencies()`:
+        ```bash
+        ament_target_dependencies(bt_runner
+          rclcpp
+          behaviortree_cpp_v3
+          OpenCV   # New dependency added
+        )
+        ``` 
+      - Add to `target_include_directories()`:
+        ``` bash
+        target_include_directories(bt_runner PUBLIC
+          ...
+          ${OpenCV_INCLUDE_DIRS}
+        )
 
-      2. What is done automatically by the script
-      - Add the source file
-        - Location: `bt_nodes/<NodeName>.cpp`
-        - Template based on `BT::CoroActionNode`
-      - Register the new source file in CMake
-        - `generate_sources.sh` is invoked to update `sources.cmake`
-        - No need to manually edit `sources.cmake`
-
-      3. What you still need to do manually
-      -  Add a header file
-          -  Location: `include/turtlebot4_factory_inspection/<NodeName>.hpp`
-          -  Only needed if your node has complex structure or external usage
-      - Register the node in the XML Behavior Tree
-        - File: `trees/main_tree.xml` 
-        - Add the tag ( Make sure the tag name matches the one used in C++ registration)
-          ```bash
-          <TakePhoto/>
-          ```
-      - Register the node in C++
-        - File: `bt_runner.cpp`
-        - Add the factory registration line:
-          ```bash
-          factory.registerNodeType<TakePhoto>("TakePhoto");
-          ```
-      - Add new library dependencies
-        - Modify `CMakeLists.txt` as follows:
-          - Add to `find_package()`:
-            ```bash
-            find_package(OpenCV REQUIRED)
-            ```
-          - Add to `ament_target_dependencies()`:
-            ```bash
-            ament_target_dependencies(bt_runner
-              rclcpp
-              behaviortree_cpp_v3
-              OpenCV   # New dependency added
-            )
-            ``` 
-          - Add to `target_include_directories()`:
-            ``` bash
-            target_include_directories(bt_runner PUBLIC
-              ...
-              ${OpenCV_INCLUDE_DIRS}
-            )
-
-            ``` 
+        ``` 
