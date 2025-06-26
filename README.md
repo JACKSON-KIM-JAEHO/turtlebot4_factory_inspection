@@ -31,11 +31,10 @@
 #clone the repository
 
 
-'''
 
-
+```
 ---
-### Other_details
+## Other_details
 ####  When adding a new Behavior Tree (BT) node
 
 1. **Add the source file**
