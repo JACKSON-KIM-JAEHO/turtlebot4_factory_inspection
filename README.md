@@ -67,8 +67,6 @@
      factory.registerNodeType<TakePhoto>("TakePhoto");
      ```
 
----
-
 #### When adding a new library (e.g., OpenCV, tf2_ros)
 
 1. **Update `CMakeLists.txt`**
