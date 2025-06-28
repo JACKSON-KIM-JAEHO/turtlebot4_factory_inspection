@@ -1,6 +1,15 @@
 #include "behaviortree_cpp_v3/bt_factory.h"
-#include "turtlebot4_factory_inspection/MoveToTarget.hpp"
+#include "turtlebot4_factory_inspection/AdvanceIndex.hpp"
+#include "turtlebot4_factory_inspection/CheckIfSetupDone.hpp"
+#include "turtlebot4_factory_inspection/InitialSetup.hpp"
+#include "turtlebot4_factory_inspection/IsArrivedAtBase.hpp"
 #include "turtlebot4_factory_inspection/IsArrivedAtTarget.hpp"
+#include "turtlebot4_factory_inspection/IsNomoreTask.hpp"
+#include "turtlebot4_factory_inspection/MoveToTarget.hpp"
+#include "turtlebot4_factory_inspection/ReturnToBase.hpp"
+#include "turtlebot4_factory_inspection/SetAngle.hpp"
+#include "turtlebot4_factory_inspection/SkipTarget.hpp"
+#include "turtlebot4_factory_inspection/TakePhoto.hpp"
 #include "ament_index_cpp/get_package_share_directory.hpp"
 
 #include "rclcpp/rclcpp.hpp"  // ✅ ROS 2 init, shutdown 필요
@@ -16,8 +25,18 @@ int main(int argc, char **argv)
 
   // Behavior Tree 설정
   BT::BehaviorTreeFactory factory;
-  factory.registerNodeType<MoveToTarget>("MoveToTarget");
+  factory.registerNodeType<AdvanceIndex>("AdvanceIndex");
+  factory.registerNodeType<CheckIfSetupDone>("CheckIfSetupDone");
+  factory.registerNodeType<InitialSetup>("InitialSetup");
+  factory.registerNodeType<IsArrivedAtBase>("IsArrivedAtBase");
   factory.registerNodeType<IsArrivedAtTarget>("IsArrivedAtTarget");
+  factory.registerNodeType<MoveToTarget>("MoveToTarget");
+  factory.registerNodeType<IsNomoreTask>("IsNomoreTask");
+  factory.registerNodeType<MoveToTarget>("MoveToTarget");
+  factory.registerNodeType<ReturnToBase>("ReturnToBase");
+  factory.registerNodeType<SetAngle>("SetAngle");
+  factory.registerNodeType<SkipTarget>("SkipTarget");
+  factory.registerNodeType<TakePhoto>("TakePhoto");
 
   // XML 트리 파일 경로 얻기
   std::string pkg_path = ament_index_cpp::get_package_share_directory("turtlebot4_factory_inspection");

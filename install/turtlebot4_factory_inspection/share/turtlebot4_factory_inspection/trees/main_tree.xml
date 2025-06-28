@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <ReactiveFallback>
+      <IsArrivedAtTarget/>
+      <MoveToTarget/>
+    </ReactiveFallback>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Condition ID="IsArrivedAtTarget"
+               editable="true"/>
+    <Action ID="MoveToTarget"
+            editable="true"/>
+  </TreeNodesModel>
+
+</root>

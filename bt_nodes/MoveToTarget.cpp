@@ -1,15 +1,15 @@
-#include "turtlebot4_factory_inspection/MoveToTarget.hpp"
-#include <chrono>
-#include <memory>
-#include <thread>
+#include "turtlebot4_factory_inspection/MoveToTarget.hpp" //헤더 파일 (클래스 정의)
+#include <chrono> //시간 관련 유틸리티 (초, 밀리초 단위)
+#include <memory> // 스마트 포인터 사용을 위한 헤더
+#include <thread> // std::thread 등 멀티 스레딩
 
-using namespace std::chrono_literals;
+using namespace std::chrono_literals; // 5s, 100ms 등처럼 시간 단위를 문자처럼 자연스럽게 쓰기 위한 선언
 
 MoveToTarget::MoveToTarget(const std::string& name, const BT::NodeConfiguration& config)
 : BT::SyncActionNode(name, config)
 {
   node_ = rclcpp::Node::make_shared("move_to_target_node");
-  client_ = rclcpp_action::create_client<NavigateToPose>(node_, "navigate_to_pose");
+  client_ = rclcpp_action::create_client<NavigateToPose>(node_, "navigate_to_pose"); //액션 서버 클라이언트 생성
 
   // 별도 ROS2 스레드로 spin()
   std::thread([this]() {
@@ -21,7 +21,7 @@ MoveToTarget::MoveToTarget(const std::string& name, const BT::NodeConfiguration&
 
 BT::NodeStatus MoveToTarget::tick()
 {
-  if (!client_->wait_for_action_server(5s)) {
+  if (!client_->wait_for_action_server(3s)) {
     RCLCPP_ERROR(node_->get_logger(), "NavigateToPose action server not available.");
     return BT::NodeStatus::FAILURE;
   }
@@ -29,12 +29,12 @@ BT::NodeStatus MoveToTarget::tick()
   NavigateToPose::Goal goal;
   goal.pose.header.frame_id = "map";
   goal.pose.header.stamp = node_->get_clock()->now();
-  goal.pose.pose.position.x = 0.0;  // ✅ 목표 위치
+  goal.pose.pose.position.x = 0.0;  // 목표 위치
   goal.pose.pose.position.y = 1.5;
-  goal.pose.pose.orientation.w = 1.0;  // 회전 없음
+  goal.pose.pose.orientation.w = 1.0;  // 회전 없음 -> 이것만 보면 본인 기준 무조건 몇도 돌아라 인 것 같다. 몇도로 맞춰라가 아니라
 
   auto future_goal = client_->async_send_goal(goal);
-  if (future_goal.wait_for(5s) != std::future_status::ready) {
+  if (future_goal.wait_for(3s) != std::future_status::ready) {
     RCLCPP_ERROR(node_->get_logger(), "Failed to send goal.");
     return BT::NodeStatus::FAILURE;
   }

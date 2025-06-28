@@ -22,6 +22,8 @@ find_package(ament_cmake REQUIRED)
 # ROS 2 핵심 라이브러리
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 
 # Nav2 액션 메시지
 find_package(nav2_msgs REQUIRED)
@@ -51,7 +53,9 @@ ament_target_dependencies(bt_runner
   rclcpp_action
   nav2_msgs
   behaviortree_cpp_v3
-  ament_index_cpp   # ✅ 실행 중 경로 검색용
+  ament_index_cpp
+  tf2_ros
+  tf2_geometry_msgs
 )
 
 # ---------- 설치 설정 ----------
