@@ -157,4 +157,4 @@ To simplify the BT node integration process, you can use our shell scripts to **
         )
 
         ```
-        4. Add Nodes at sources.cmake
+  4. Add Nodes at sources.cmake
