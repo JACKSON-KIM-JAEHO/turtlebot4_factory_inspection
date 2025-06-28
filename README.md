@@ -156,4 +156,5 @@ To simplify the BT node integration process, you can use our shell scripts to **
           ${OpenCV_INCLUDE_DIRS}
         )
 
-        ``` 
+        ```
+        4. Add Nodes at sources.cmake
