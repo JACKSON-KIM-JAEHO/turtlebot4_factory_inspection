@@ -2,14 +2,28 @@
 <root BTCPP_format="4"
       main_tree_to_execute="MainTree">
   <BehaviorTree ID="MainTree">
-    <ReactiveFallback>
-      <IsArrivedAtTarget/>
-      <MoveToTarget/>
-    </ReactiveFallback>
+    <Sequence>
+      <Fallback>
+        <CheckIfSetupDone flag="{initial_setup_done}"/>
+        <InitialSetup
+            file_path="{waypoints_file_path}"
+            task_list="{task_list}"
+            current_index="{current_index}"
+            flag="{initial_setup_done}"/>
+      </Fallback>
+      <ReactiveFallback>
+        <IsArrivedAtTarget/>
+        <MoveToTarget/>
+      </ReactiveFallback>
+    </Sequence>
   </BehaviorTree>
 
   <!-- Description of Node Models (used by Groot) -->
   <TreeNodesModel>
+    <Condition ID="CheckIfSetupDone"
+               editable="true"/>
+    <Action ID="InitialSetup"
+            editable="true"/>
     <Condition ID="IsArrivedAtTarget"
                editable="true"/>
     <Action ID="MoveToTarget"

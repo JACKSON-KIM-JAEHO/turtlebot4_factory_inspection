@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o: in function `turtlebot4_factory_inspection::bt_nodes::InitialSetup::tick()':
+InitialSetup.cpp:(.text+0x7cc): undefined reference to `turtlebot4_factory_inspection::bt_nodes::load_waypoints_from_yaml(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:408: bt_runner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

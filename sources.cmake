@@ -1,5 +1,6 @@
 set(SOURCE_FILES
   src/bt_runner.cpp
+  src/utils/load_waypoints.cpp
   bt_nodes/AdvanceIndex.cpp
   bt_nodes/CheckIfSetupDone.cpp
   bt_nodes/InitialSetup.cpp

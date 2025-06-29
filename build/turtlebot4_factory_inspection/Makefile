@@ -210,6 +210,102 @@ bt_runner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/build
 .PHONY : bt_runner/fast
 
+bt_nodes/AdvanceIndex.o: bt_nodes/AdvanceIndex.cpp.o
+.PHONY : bt_nodes/AdvanceIndex.o
+
+# target to build an object file
+bt_nodes/AdvanceIndex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o
+.PHONY : bt_nodes/AdvanceIndex.cpp.o
+
+bt_nodes/AdvanceIndex.i: bt_nodes/AdvanceIndex.cpp.i
+.PHONY : bt_nodes/AdvanceIndex.i
+
+# target to preprocess a source file
+bt_nodes/AdvanceIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.i
+.PHONY : bt_nodes/AdvanceIndex.cpp.i
+
+bt_nodes/AdvanceIndex.s: bt_nodes/AdvanceIndex.cpp.s
+.PHONY : bt_nodes/AdvanceIndex.s
+
+# target to generate assembly for a file
+bt_nodes/AdvanceIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.s
+.PHONY : bt_nodes/AdvanceIndex.cpp.s
+
+bt_nodes/CheckIfSetupDone.o: bt_nodes/CheckIfSetupDone.cpp.o
+.PHONY : bt_nodes/CheckIfSetupDone.o
+
+# target to build an object file
+bt_nodes/CheckIfSetupDone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o
+.PHONY : bt_nodes/CheckIfSetupDone.cpp.o
+
+bt_nodes/CheckIfSetupDone.i: bt_nodes/CheckIfSetupDone.cpp.i
+.PHONY : bt_nodes/CheckIfSetupDone.i
+
+# target to preprocess a source file
+bt_nodes/CheckIfSetupDone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.i
+.PHONY : bt_nodes/CheckIfSetupDone.cpp.i
+
+bt_nodes/CheckIfSetupDone.s: bt_nodes/CheckIfSetupDone.cpp.s
+.PHONY : bt_nodes/CheckIfSetupDone.s
+
+# target to generate assembly for a file
+bt_nodes/CheckIfSetupDone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.s
+.PHONY : bt_nodes/CheckIfSetupDone.cpp.s
+
+bt_nodes/InitialSetup.o: bt_nodes/InitialSetup.cpp.o
+.PHONY : bt_nodes/InitialSetup.o
+
+# target to build an object file
+bt_nodes/InitialSetup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o
+.PHONY : bt_nodes/InitialSetup.cpp.o
+
+bt_nodes/InitialSetup.i: bt_nodes/InitialSetup.cpp.i
+.PHONY : bt_nodes/InitialSetup.i
+
+# target to preprocess a source file
+bt_nodes/InitialSetup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.i
+.PHONY : bt_nodes/InitialSetup.cpp.i
+
+bt_nodes/InitialSetup.s: bt_nodes/InitialSetup.cpp.s
+.PHONY : bt_nodes/InitialSetup.s
+
+# target to generate assembly for a file
+bt_nodes/InitialSetup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.s
+.PHONY : bt_nodes/InitialSetup.cpp.s
+
+bt_nodes/IsArrivedAtBase.o: bt_nodes/IsArrivedAtBase.cpp.o
+.PHONY : bt_nodes/IsArrivedAtBase.o
+
+# target to build an object file
+bt_nodes/IsArrivedAtBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o
+.PHONY : bt_nodes/IsArrivedAtBase.cpp.o
+
+bt_nodes/IsArrivedAtBase.i: bt_nodes/IsArrivedAtBase.cpp.i
+.PHONY : bt_nodes/IsArrivedAtBase.i
+
+# target to preprocess a source file
+bt_nodes/IsArrivedAtBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.i
+.PHONY : bt_nodes/IsArrivedAtBase.cpp.i
+
+bt_nodes/IsArrivedAtBase.s: bt_nodes/IsArrivedAtBase.cpp.s
+.PHONY : bt_nodes/IsArrivedAtBase.s
+
+# target to generate assembly for a file
+bt_nodes/IsArrivedAtBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.s
+.PHONY : bt_nodes/IsArrivedAtBase.cpp.s
+
 bt_nodes/IsArrivedAtTarget.o: bt_nodes/IsArrivedAtTarget.cpp.o
 .PHONY : bt_nodes/IsArrivedAtTarget.o
 
@@ -233,6 +329,30 @@ bt_nodes/IsArrivedAtTarget.s: bt_nodes/IsArrivedAtTarget.cpp.s
 bt_nodes/IsArrivedAtTarget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.s
 .PHONY : bt_nodes/IsArrivedAtTarget.cpp.s
+
+bt_nodes/IsNomoreTask.o: bt_nodes/IsNomoreTask.cpp.o
+.PHONY : bt_nodes/IsNomoreTask.o
+
+# target to build an object file
+bt_nodes/IsNomoreTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o
+.PHONY : bt_nodes/IsNomoreTask.cpp.o
+
+bt_nodes/IsNomoreTask.i: bt_nodes/IsNomoreTask.cpp.i
+.PHONY : bt_nodes/IsNomoreTask.i
+
+# target to preprocess a source file
+bt_nodes/IsNomoreTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.i
+.PHONY : bt_nodes/IsNomoreTask.cpp.i
+
+bt_nodes/IsNomoreTask.s: bt_nodes/IsNomoreTask.cpp.s
+.PHONY : bt_nodes/IsNomoreTask.s
+
+# target to generate assembly for a file
+bt_nodes/IsNomoreTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.s
+.PHONY : bt_nodes/IsNomoreTask.cpp.s
 
 bt_nodes/MoveToTarget.o: bt_nodes/MoveToTarget.cpp.o
 .PHONY : bt_nodes/MoveToTarget.o
@@ -258,6 +378,102 @@ bt_nodes/MoveToTarget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s
 .PHONY : bt_nodes/MoveToTarget.cpp.s
 
+bt_nodes/ReturnToBase.o: bt_nodes/ReturnToBase.cpp.o
+.PHONY : bt_nodes/ReturnToBase.o
+
+# target to build an object file
+bt_nodes/ReturnToBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o
+.PHONY : bt_nodes/ReturnToBase.cpp.o
+
+bt_nodes/ReturnToBase.i: bt_nodes/ReturnToBase.cpp.i
+.PHONY : bt_nodes/ReturnToBase.i
+
+# target to preprocess a source file
+bt_nodes/ReturnToBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.i
+.PHONY : bt_nodes/ReturnToBase.cpp.i
+
+bt_nodes/ReturnToBase.s: bt_nodes/ReturnToBase.cpp.s
+.PHONY : bt_nodes/ReturnToBase.s
+
+# target to generate assembly for a file
+bt_nodes/ReturnToBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.s
+.PHONY : bt_nodes/ReturnToBase.cpp.s
+
+bt_nodes/SetAngle.o: bt_nodes/SetAngle.cpp.o
+.PHONY : bt_nodes/SetAngle.o
+
+# target to build an object file
+bt_nodes/SetAngle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o
+.PHONY : bt_nodes/SetAngle.cpp.o
+
+bt_nodes/SetAngle.i: bt_nodes/SetAngle.cpp.i
+.PHONY : bt_nodes/SetAngle.i
+
+# target to preprocess a source file
+bt_nodes/SetAngle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.i
+.PHONY : bt_nodes/SetAngle.cpp.i
+
+bt_nodes/SetAngle.s: bt_nodes/SetAngle.cpp.s
+.PHONY : bt_nodes/SetAngle.s
+
+# target to generate assembly for a file
+bt_nodes/SetAngle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.s
+.PHONY : bt_nodes/SetAngle.cpp.s
+
+bt_nodes/SkipTarget.o: bt_nodes/SkipTarget.cpp.o
+.PHONY : bt_nodes/SkipTarget.o
+
+# target to build an object file
+bt_nodes/SkipTarget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o
+.PHONY : bt_nodes/SkipTarget.cpp.o
+
+bt_nodes/SkipTarget.i: bt_nodes/SkipTarget.cpp.i
+.PHONY : bt_nodes/SkipTarget.i
+
+# target to preprocess a source file
+bt_nodes/SkipTarget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.i
+.PHONY : bt_nodes/SkipTarget.cpp.i
+
+bt_nodes/SkipTarget.s: bt_nodes/SkipTarget.cpp.s
+.PHONY : bt_nodes/SkipTarget.s
+
+# target to generate assembly for a file
+bt_nodes/SkipTarget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.s
+.PHONY : bt_nodes/SkipTarget.cpp.s
+
+bt_nodes/TakePhoto.o: bt_nodes/TakePhoto.cpp.o
+.PHONY : bt_nodes/TakePhoto.o
+
+# target to build an object file
+bt_nodes/TakePhoto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o
+.PHONY : bt_nodes/TakePhoto.cpp.o
+
+bt_nodes/TakePhoto.i: bt_nodes/TakePhoto.cpp.i
+.PHONY : bt_nodes/TakePhoto.i
+
+# target to preprocess a source file
+bt_nodes/TakePhoto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.i
+.PHONY : bt_nodes/TakePhoto.cpp.i
+
+bt_nodes/TakePhoto.s: bt_nodes/TakePhoto.cpp.s
+.PHONY : bt_nodes/TakePhoto.s
+
+# target to generate assembly for a file
+bt_nodes/TakePhoto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.s
+.PHONY : bt_nodes/TakePhoto.cpp.s
+
 src/bt_runner.o: src/bt_runner.cpp.o
 .PHONY : src/bt_runner.o
 
@@ -282,6 +498,30 @@ src/bt_runner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/bt_runner.cpp.s
 .PHONY : src/bt_runner.cpp.s
 
+src/utils/load_waypoints.o: src/utils/load_waypoints.cpp.o
+.PHONY : src/utils/load_waypoints.o
+
+# target to build an object file
+src/utils/load_waypoints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o
+.PHONY : src/utils/load_waypoints.cpp.o
+
+src/utils/load_waypoints.i: src/utils/load_waypoints.cpp.i
+.PHONY : src/utils/load_waypoints.i
+
+# target to preprocess a source file
+src/utils/load_waypoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.i
+.PHONY : src/utils/load_waypoints.cpp.i
+
+src/utils/load_waypoints.s: src/utils/load_waypoints.cpp.s
+.PHONY : src/utils/load_waypoints.s
+
+# target to generate assembly for a file
+src/utils/load_waypoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_runner.dir/build.make CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.s
+.PHONY : src/utils/load_waypoints.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -298,15 +538,45 @@ help:
 	@echo "... turtlebot4_factory_inspection_uninstall"
 	@echo "... uninstall"
 	@echo "... bt_runner"
+	@echo "... bt_nodes/AdvanceIndex.o"
+	@echo "... bt_nodes/AdvanceIndex.i"
+	@echo "... bt_nodes/AdvanceIndex.s"
+	@echo "... bt_nodes/CheckIfSetupDone.o"
+	@echo "... bt_nodes/CheckIfSetupDone.i"
+	@echo "... bt_nodes/CheckIfSetupDone.s"
+	@echo "... bt_nodes/InitialSetup.o"
+	@echo "... bt_nodes/InitialSetup.i"
+	@echo "... bt_nodes/InitialSetup.s"
+	@echo "... bt_nodes/IsArrivedAtBase.o"
+	@echo "... bt_nodes/IsArrivedAtBase.i"
+	@echo "... bt_nodes/IsArrivedAtBase.s"
 	@echo "... bt_nodes/IsArrivedAtTarget.o"
 	@echo "... bt_nodes/IsArrivedAtTarget.i"
 	@echo "... bt_nodes/IsArrivedAtTarget.s"
+	@echo "... bt_nodes/IsNomoreTask.o"
+	@echo "... bt_nodes/IsNomoreTask.i"
+	@echo "... bt_nodes/IsNomoreTask.s"
 	@echo "... bt_nodes/MoveToTarget.o"
 	@echo "... bt_nodes/MoveToTarget.i"
 	@echo "... bt_nodes/MoveToTarget.s"
+	@echo "... bt_nodes/ReturnToBase.o"
+	@echo "... bt_nodes/ReturnToBase.i"
+	@echo "... bt_nodes/ReturnToBase.s"
+	@echo "... bt_nodes/SetAngle.o"
+	@echo "... bt_nodes/SetAngle.i"
+	@echo "... bt_nodes/SetAngle.s"
+	@echo "... bt_nodes/SkipTarget.o"
+	@echo "... bt_nodes/SkipTarget.i"
+	@echo "... bt_nodes/SkipTarget.s"
+	@echo "... bt_nodes/TakePhoto.o"
+	@echo "... bt_nodes/TakePhoto.i"
+	@echo "... bt_nodes/TakePhoto.s"
 	@echo "... src/bt_runner.o"
 	@echo "... src/bt_runner.i"
 	@echo "... src/bt_runner.s"
+	@echo "... src/utils/load_waypoints.o"
+	@echo "... src/utils/load_waypoints.i"
+	@echo "... src/utils/load_waypoints.s"
 .PHONY : help
 
 

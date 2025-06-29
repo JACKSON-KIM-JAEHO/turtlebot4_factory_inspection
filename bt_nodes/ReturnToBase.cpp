@@ -1,6 +1,6 @@
-#include "turtlebot4_factory_inspection/ReturnToBase.hpp"
+#include "turtlebot4_factory_inspection/bt_nodes/ReturnToBase.hpp"
 
-namespace turtlebot4_factory_inspection {
+namespace turtlebot4_factory_inspection::bt_nodes {
 
 ReturnToBase::ReturnToBase(const std::string& name, const BT::NodeConfiguration& config)
 : BT::SyncActionNode(name, config) {}
@@ -15,4 +15,4 @@ BT::NodeStatus ReturnToBase::tick()
   return BT::NodeStatus::SUCCESS;
 }
 
-}  // namespace turtlebot4_factory_inspection
+}  // namespace turtlebot4_factory_inspection::bt_nodes
