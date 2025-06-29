@@ -83,24 +83,80 @@ CMakeFiles/bt_runner.dir/src/bt_runner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/bt_runner.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp -o CMakeFiles/bt_runner.dir/src/bt_runner.cpp.s
 
-CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o: CMakeFiles/bt_runner.dir/flags.make
-CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o: ../../bt_nodes/MoveToTarget.cpp
-CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp
+CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: ../../src/utils/load_waypoints.cpp
+CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o -MF CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o.d -o CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/utils/load_waypoints.cpp
 
-CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp > CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.i
+CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/utils/load_waypoints.cpp > CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.i
 
-CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s
+CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/utils/load_waypoints.cpp -o CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o: ../../bt_nodes/AdvanceIndex.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.cpp > CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o: ../../bt_nodes/CheckIfSetupDone.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp > CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o: ../../bt_nodes/InitialSetup.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/InitialSetup.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/InitialSetup.cpp > CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/InitialSetup.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o: ../../bt_nodes/IsArrivedAtBase.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp > CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.s
 
 CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o: CMakeFiles/bt_runner.dir/flags.make
 CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o: ../../bt_nodes/IsArrivedAtTarget.cpp
 CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.cpp
 
 CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.i: cmake_force
@@ -111,18 +167,122 @@ CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.s
 
+CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o: ../../bt_nodes/IsNomoreTask.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.cpp > CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o: ../../bt_nodes/MoveToTarget.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp > CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o: ../../bt_nodes/ReturnToBase.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/ReturnToBase.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/ReturnToBase.cpp > CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/ReturnToBase.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o: ../../bt_nodes/SetAngle.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/SetAngle.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/SetAngle.cpp > CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/SetAngle.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o: ../../bt_nodes/SkipTarget.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/SkipTarget.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/SkipTarget.cpp > CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/SkipTarget.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.s
+
+CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o: CMakeFiles/bt_runner.dir/flags.make
+CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o: ../../bt_nodes/TakePhoto.cpp
+CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o: CMakeFiles/bt_runner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o -MF CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o.d -o CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o -c /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/TakePhoto.cpp
+
+CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/TakePhoto.cpp > CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.i
+
+CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/TakePhoto.cpp -o CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.s
+
 # Object files for target bt_runner
 bt_runner_OBJECTS = \
 "CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o" \
+"CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o" \
 "CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o" \
-"CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o"
+"CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o" \
+"CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o"
 
 # External object files for target bt_runner
 bt_runner_EXTERNAL_OBJECTS =
 
 bt_runner: CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o
-bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o
 bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o
+bt_runner: CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o
 bt_runner: CMakeFiles/bt_runner.dir/build.make
 bt_runner: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
 bt_runner: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -132,6 +292,7 @@ bt_runner: /opt/ros/humble/lib/libnav2_msgs__rosidl_typesupport_cpp.so
 bt_runner: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_py.so
 bt_runner: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
 bt_runner: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+bt_runner: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 bt_runner: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
 bt_runner: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
 bt_runner: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
@@ -243,7 +404,7 @@ bt_runner: /opt/ros/humble/lib/librcutils.so
 bt_runner: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 bt_runner: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 bt_runner: CMakeFiles/bt_runner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bt_runner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable bt_runner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bt_runner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection -- -j8 -l8
+[0.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.121s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.126s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.159s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.160s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.227s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.256s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.275s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.313s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.315s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.316s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.317s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.396s] -- Configuring done
+[0.405s] -- Generating done
+[0.408s] -- Build files have been written to: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection
+[0.429s] [35m[1mConsolidate compiler generated dependencies of target bt_runner[0m
+[0.454s] [  7%] [32m[1mLinking CXX executable bt_runner[0m
+[0.657s] /usr/bin/ld: CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o: in function `turtlebot4_factory_inspection::bt_nodes::InitialSetup::tick()':
+[0.657s] InitialSetup.cpp:(.text+0x7cc): undefined reference to `turtlebot4_factory_inspection::bt_nodes::load_waypoints_from_yaml(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[0.675s] collect2: error: ld returned 1 exit status
+[0.676s] gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:408: bt_runner] Error 1
+[0.676s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+[0.676s] gmake: *** [Makefile:146: all] Error 2
+[0.678s] Invoked command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection -- -j8 -l8

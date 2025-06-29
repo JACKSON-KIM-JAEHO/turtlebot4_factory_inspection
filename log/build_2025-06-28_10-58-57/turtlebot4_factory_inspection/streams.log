@@ -1,0 +1,34 @@
+[0.007s] Invoking command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection -- -j8 -l8
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target bt_runner[0m
+[0.065s] [ 21%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o[0m
+[0.068s] [ 21%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o[0m
+[0.068s] [ 28%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/SetAngle.cpp.o[0m
+[0.068s] [ 35%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/ReturnToBase.cpp.o[0m
+[0.068s] [ 42%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o[0m
+[0.069s] [ 21%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o[0m
+[0.069s] [ 57%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/TakePhoto.cpp.o[0m
+[0.069s] [ 57%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/SkipTarget.cpp.o[0m
+[1.075s] [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCheckIfSetupDone[m[K’ does not name a type
+[1.076s]     5 | [01;31m[KCheckIfSetupDone[m[K::CheckIfSetupDone(const std::string& name, const BT::NodeConfiguration& config)
+[1.076s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.076s] [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp:8:15:[m[K [01;31m[Kerror: [m[K‘[01m[KCheckIfSetupDone[m[K’ has not been declared
+[1.076s]     8 | BT::PortsList [01;31m[KCheckIfSetupDone[m[K::providedPorts()
+[1.076s]       |               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.076s] [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp:13:16:[m[K [01;31m[Kerror: [m[K‘[01m[KCheckIfSetupDone[m[K’ has not been declared
+[1.076s]    13 | BT::NodeStatus [01;31m[KCheckIfSetupDone[m[K::tick()
+[1.076s]       |                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.207s] [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[KIsArrivedAtBase[m[K’ does not name a type
+[1.207s]     5 | [01;31m[KIsArrivedAtBase[m[K::IsArrivedAtBase(const std::string& name, const BT::NodeConfiguration& config)
+[1.207s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.208s] [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp:8:15:[m[K [01;31m[Kerror: [m[K‘[01m[KIsArrivedAtBase[m[K’ has not been declared
+[1.209s]     8 | BT::PortsList [01;31m[KIsArrivedAtBase[m[K::providedPorts()
+[1.209s]       |               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.209s] [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp:13:16:[m[K [01;31m[Kerror: [m[K‘[01m[KIsArrivedAtBase[m[K’ has not been declared
+[1.209s]    13 | BT::NodeStatus [01;31m[KIsArrivedAtBase[m[K::tick()
+[1.209s]       |                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.221s] gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:118: CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o] Error 1
+[1.221s] gmake[2]: *** Waiting for unfinished jobs....
+[1.336s] gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:146: CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o] Error 1
+[3.226s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+[3.226s] gmake: *** [Makefile:146: all] Error 2
+[3.228s] Invoked command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection -- -j8 -l8

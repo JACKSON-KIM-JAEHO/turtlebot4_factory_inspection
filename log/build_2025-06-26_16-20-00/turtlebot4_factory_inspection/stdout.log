@@ -1,3 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target bt_runner[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o[0m

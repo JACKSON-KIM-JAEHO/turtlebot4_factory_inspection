@@ -1,4 +1,4 @@
-#include "turtlebot4_factory_inspection/IsArrivedAtTarget.hpp"
+#include "turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.hpp"
 #include "behaviortree_cpp_v3/condition_node.h"
 #include "rclcpp/rclcpp.hpp"
 #include <geometry_msgs/msg/pose_stamped.hpp>
@@ -6,7 +6,7 @@
 #include <cmath>
 #include <vector>
 
-namespace turtlebot4_factory_inspection {
+namespace turtlebot4_factory_inspection::bt_nodes {
 
 IsArrivedAtTarget::IsArrivedAtTarget(const std::string& name, const BT::NodeConfiguration& config)
 : BT::ConditionNode(name, config)

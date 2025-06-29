@@ -1,0 +1,68 @@
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: warning: relocation against `_ZTVN4YAML9ExceptionE' in read-only section `.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `turtlebot4_factory_inspection::load_waypoints_from_yaml(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+load_waypoints.cpp:(.text+0x60): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+load_waypoints.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+load_waypoints.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+load_waypoints.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':
+load_waypoints.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7c): undefined reference to `vtable for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::memory_holder::create_node()':
+load_waypoints.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node_ref::mark_defined()':
+load_waypoints.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node_ref::set_null()':
+load_waypoints.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+load_waypoints.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node_ref::begin()':
+load_waypoints.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node_ref::end()':
+load_waypoints.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::Node::EnsureNodeExists() const':
+load_waypoints.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::Node::Mark() const':
+load_waypoints.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::Node::Type() const':
+load_waypoints.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':
+load_waypoints.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `double YAML::Node::as<double>() const':
+load_waypoints.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::TypedBadConversion<double>::~TypedBadConversion()':
+load_waypoints.cpp:(.text._ZN4YAML18TypedBadConversionIdED2Ev[_ZN4YAML18TypedBadConversionIdED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [10]>(char const (&) [10], std::shared_ptr<YAML::detail::memory_holder>)':
+load_waypoints.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [2]>(char const (&) [2], std::shared_ptr<YAML::detail::memory_holder>) const':
+load_waypoints.cpp:(.text._ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [4]>(char const (&) [4], std::shared_ptr<YAML::detail::memory_holder>) const':
+load_waypoints.cpp:(.text._ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: load_waypoints.cpp:(.text._ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA4_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [10]>(YAML::Mark const&, char const (&) [10])':
+load_waypoints.cpp:(.text._ZN4YAML12BadSubscriptC2IA10_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA10_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [10]>(char const (&) [10], std::shared_ptr<YAML::detail::memory_holder>)':
+load_waypoints.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [2]>(YAML::Mark const&, char const (&) [2])':
+load_waypoints.cpp:(.text._ZN4YAML12BadSubscriptC2IA2_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA2_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [4]>(YAML::Mark const&, char const (&) [4])':
+load_waypoints.cpp:(.text._ZN4YAML12BadSubscriptC2IA4_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA4_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIdEE[_ZTIN4YAML18TypedBadConversionIdEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o: in function `turtlebot4_factory_inspection::bt_nodes::InitialSetup::tick()':
+InitialSetup.cpp:(.text+0x7cc): undefined reference to `turtlebot4_factory_inspection::bt_nodes::load_waypoints_from_yaml(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:407: bt_runner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

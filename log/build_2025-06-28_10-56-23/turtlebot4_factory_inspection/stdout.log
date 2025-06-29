@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target bt_runner[0m
+[  7%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o[0m
