@@ -36,7 +36,7 @@ BT::NodeStatus AdvanceIndex::tick()
 
   RCLCPP_INFO(node_->get_logger(), "[AdvanceIndex] ✅ Advanced index to: %d", index);
 
-  return BT::NodeStatus::SUCCESS;
+  return BT::NodeStatus::FAILURE;
 }
 
 }  // namespace turtlebot4_factory_inspection::bt_nodes
