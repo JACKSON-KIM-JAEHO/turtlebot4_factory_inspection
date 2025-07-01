@@ -6,8 +6,6 @@
 #include <cmath>
 #include <vector>
 
-namespace turtlebot4_factory_inspection::bt_nodes {
-
 IsArrivedAtTarget::IsArrivedAtTarget(const std::string& name, const BT::NodeConfiguration& config)
 : BT::ConditionNode(name, config)
 {
@@ -64,11 +62,9 @@ BT::NodeStatus IsArrivedAtTarget::tick()
   
   setOutput("current_index", current_index);
   
-  if (distance < 0.2) {
+  if (distance < 0.3) {
     return BT::NodeStatus::SUCCESS;
   } else {
     return BT::NodeStatus::FAILURE;
   }
 }
-
-}  // namespace turtlebot4_factory_inspection
