@@ -11,6 +11,12 @@
         "*.repos": "yaml",
         "*.world": "xml",
         "*.xacro": "xml",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "chrono": "cpp",
+        "regex": "cpp",
+        "vector": "cpp",
+        "filesystem": "cpp",
+        "cmath": "cpp",
+        "iterator": "cpp"
     }
 }

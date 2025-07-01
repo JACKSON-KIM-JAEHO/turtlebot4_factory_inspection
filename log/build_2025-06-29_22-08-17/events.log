@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000371] (turtlebot4_factory_inspection) JobQueued: {'identifier': 'turtlebot4_factory_inspection', 'dependencies': OrderedDict()}
+[0.000921] (turtlebot4_factory_inspection) JobStarted: {'identifier': 'turtlebot4_factory_inspection'}
+[0.006778] (turtlebot4_factory_inspection) JobProgress: {'identifier': 'turtlebot4_factory_inspection', 'progress': 'cmake'}
+[0.007205] (turtlebot4_factory_inspection) JobProgress: {'identifier': 'turtlebot4_factory_inspection', 'progress': 'build'}
+[0.007802] (turtlebot4_factory_inspection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection', '--', '-j8', '-l8'], 'cwd': '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jaeho'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaeho'), ('OLDPWD', '/home/jaeho'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1020'), ('SYSTEMD_EXEC_PID', '1225'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3513'), ('_colcon_cd_root', '/home/jaeho/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install:/home/jaeho/sw_projects/my_ros2_ws/install:/home/jaeho/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jaeho'), ('JOURNAL_STREAM', '8:13012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaeho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jaeho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jaeho:@/tmp/.ICE-unix/1188,unix/jaeho:/tmp/.ICE-unix/1188'), ('INVOCATION_ID', 'e91586fe8bad4f95b58efd5953a70e43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U2HA92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/sw_project_2025:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c979fc3d-a4a5-48ad-a9ff-d88736afc282'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/sw_project_2025:/opt/ros/humble')]), 'shell': False}
+[0.051883] (turtlebot4_factory_inspection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bt_runner\x1b[0m\n'}
+[0.093040] (turtlebot4_factory_inspection) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o\x1b[0m\n'}
+[0.093258] (turtlebot4_factory_inspection) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o\x1b[0m\n'}
+[0.099785] (-) TimerEvent: {}
+[0.200089] (-) TimerEvent: {}
+[0.300402] (-) TimerEvent: {}
+[0.400774] (-) TimerEvent: {}
+[0.501183] (-) TimerEvent: {}
+[0.601502] (-) TimerEvent: {}
+[0.701810] (-) TimerEvent: {}
+[0.802131] (-) TimerEvent: {}
+[0.902423] (-) TimerEvent: {}
+[1.002750] (-) TimerEvent: {}
+[1.103097] (-) TimerEvent: {}
+[1.203403] (-) TimerEvent: {}
+[1.303727] (-) TimerEvent: {}
+[1.404053] (-) TimerEvent: {}
+[1.504356] (-) TimerEvent: {}
+[1.604661] (-) TimerEvent: {}
+[1.705023] (-) TimerEvent: {}
+[1.805359] (-) TimerEvent: {}
+[1.905683] (-) TimerEvent: {}
+[2.006003] (-) TimerEvent: {}
+[2.106326] (-) TimerEvent: {}
+[2.206641] (-) TimerEvent: {}
+[2.306912] (-) TimerEvent: {}
+[2.407306] (-) TimerEvent: {}
+[2.507696] (-) TimerEvent: {}
+[2.607977] (-) TimerEvent: {}
+[2.708263] (-) TimerEvent: {}
+[2.808567] (-) TimerEvent: {}
+[2.908922] (-) TimerEvent: {}
+[3.009234] (-) TimerEvent: {}
+[3.109520] (-) TimerEvent: {}
+[3.209797] (-) TimerEvent: {}
+[3.310157] (-) TimerEvent: {}
+[3.410488] (-) TimerEvent: {}
+[3.510782] (-) TimerEvent: {}
+[3.611138] (-) TimerEvent: {}
+[3.711454] (-) TimerEvent: {}
+[3.811767] (-) TimerEvent: {}
+[3.912069] (-) TimerEvent: {}
+[4.012376] (-) TimerEvent: {}
+[4.112686] (-) TimerEvent: {}
+[4.212983] (-) TimerEvent: {}
+[4.313326] (-) TimerEvent: {}
+[4.413627] (-) TimerEvent: {}
+[4.513986] (-) TimerEvent: {}
+[4.614304] (-) TimerEvent: {}
+[4.714607] (-) TimerEvent: {}
+[4.814906] (-) TimerEvent: {}
+[4.915182] (-) TimerEvent: {}
+[5.015470] (-) TimerEvent: {}
+[5.115745] (-) TimerEvent: {}
+[5.216072] (-) TimerEvent: {}
+[5.316403] (-) TimerEvent: {}
+[5.416732] (-) TimerEvent: {}
+[5.517065] (-) TimerEvent: {}
+[5.617356] (-) TimerEvent: {}
+[5.717632] (-) TimerEvent: {}
+[5.817973] (-) TimerEvent: {}
+[5.918278] (-) TimerEvent: {}
+[6.018560] (-) TimerEvent: {}
+[6.118885] (-) TimerEvent: {}
+[6.219324] (-) TimerEvent: {}
+[6.319638] (-) TimerEvent: {}
+[6.419938] (-) TimerEvent: {}
+[6.520283] (-) TimerEvent: {}
+[6.620590] (-) TimerEvent: {}
+[6.721099] (-) TimerEvent: {}
+[6.821450] (-) TimerEvent: {}
+[6.921804] (-) TimerEvent: {}
+[7.022295] (-) TimerEvent: {}
+[7.057143] (turtlebot4_factory_inspection) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX executable bt_runner\x1b[0m\n'}
+[7.122440] (-) TimerEvent: {}
+[7.222790] (-) TimerEvent: {}
+[7.323103] (-) TimerEvent: {}
+[7.423568] (-) TimerEvent: {}
+[7.524066] (-) TimerEvent: {}
+[7.624577] (-) TimerEvent: {}
+[7.725052] (-) TimerEvent: {}
+[7.825432] (-) TimerEvent: {}
+[7.925764] (-) TimerEvent: {}
+[8.026190] (-) TimerEvent: {}
+[8.126532] (-) TimerEvent: {}
+[8.226913] (-) TimerEvent: {}
+[8.327309] (-) TimerEvent: {}
+[8.427663] (-) TimerEvent: {}
+[8.518578] (turtlebot4_factory_inspection) StdoutLine: {'line': b'[100%] Built target bt_runner\n'}
+[8.527902] (-) TimerEvent: {}
+[8.529927] (turtlebot4_factory_inspection) CommandEnded: {'returncode': 0}
+[8.530692] (turtlebot4_factory_inspection) JobProgress: {'identifier': 'turtlebot4_factory_inspection', 'progress': 'install'}
+[8.539692] (turtlebot4_factory_inspection) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection'], 'cwd': '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jaeho'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaeho'), ('OLDPWD', '/home/jaeho'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1020'), ('SYSTEMD_EXEC_PID', '1225'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3513'), ('_colcon_cd_root', '/home/jaeho/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install:/home/jaeho/sw_projects/my_ros2_ws/install:/home/jaeho/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jaeho'), ('JOURNAL_STREAM', '8:13012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaeho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jaeho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jaeho:@/tmp/.ICE-unix/1188,unix/jaeho:/tmp/.ICE-unix/1188'), ('INVOCATION_ID', 'e91586fe8bad4f95b58efd5953a70e43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U2HA92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/sw_project_2025:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c979fc3d-a4a5-48ad-a9ff-d88736afc282'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/sw_project_2025:/opt/ros/humble')]), 'shell': False}
+[8.547681] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.548041] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Installing: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/lib/turtlebot4_factory_inspection/bt_runner\n'}
+[8.553901] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Set runtime path of "/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/lib/turtlebot4_factory_inspection/bt_runner" to ""\n'}
+[8.554255] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include/\n'}
+[8.554370] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection\n'}
+[8.554468] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes\n'}
+[8.554561] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.hpp\n'}
+[8.554655] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/InitialSetup.hpp\n'}
+[8.554747] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/SetAngle.hpp\n'}
+[8.554843] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/TakePhoto.hpp\n'}
+[8.554981] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.hpp\n'}
+[8.555072] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.hpp\n'}
+[8.555162] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/SkipTarget.hpp\n'}
+[8.555250] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/ReturnToBase.hpp\n'}
+[8.555338] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Installing: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/MoveToTarget.hpp\n'}
+[8.555427] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.hpp\n'}
+[8.555590] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.hpp\n'}
+[8.555804] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/utils\n'}
+[8.556084] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/utils/load_waypoints.hpp\n'}
+[8.556226] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees\n'}
+[8.556362] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees/main_tree.xml\n'}
+[8.556471] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees/test_tree.xml\n'}
+[8.556581] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees/main_tree copy.xml\n'}
+[8.556673] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/data\n'}
+[8.556760] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/data/base_location.yaml\n'}
+[8.556857] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/data/waypoints.yaml\n'}
+[8.556957] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/ament_index/resource_index/package_run_dependencies/turtlebot4_factory_inspection\n'}
+[8.557047] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/ament_index/resource_index/parent_prefix_path/turtlebot4_factory_inspection\n'}
+[8.557138] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/ament_prefix_path.sh\n'}
+[8.557231] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/ament_prefix_path.dsv\n'}
+[8.557324] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/path.sh\n'}
+[8.557420] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/path.dsv\n'}
+[8.557515] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.bash\n'}
+[8.557607] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.sh\n'}
+[8.557696] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.zsh\n'}
+[8.557791] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.dsv\n'}
+[8.558020] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Installing: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/package.dsv\n'}
+[8.558239] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/ament_index/resource_index/packages/turtlebot4_factory_inspection\n'}
+[8.558332] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.558424] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/cmake/turtlebot4_factory_inspectionConfig.cmake\n'}
+[8.558515] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/cmake/turtlebot4_factory_inspectionConfig-version.cmake\n'}
+[8.558607] (turtlebot4_factory_inspection) StdoutLine: {'line': b'-- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/package.xml\n'}
+[8.559115] (turtlebot4_factory_inspection) CommandEnded: {'returncode': 0}
+[8.579854] (turtlebot4_factory_inspection) JobEnded: {'identifier': 'turtlebot4_factory_inspection', 'rc': 0}
+[8.580771] (-) EventReactorShutdown: {}

@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (turtlebot4_factory_inspection) JobQueued: {'identifier': 'turtlebot4_factory_inspection', 'dependencies': OrderedDict()}
+[0.000846] (turtlebot4_factory_inspection) JobStarted: {'identifier': 'turtlebot4_factory_inspection'}
+[0.010063] (turtlebot4_factory_inspection) JobProgress: {'identifier': 'turtlebot4_factory_inspection', 'progress': 'cmake'}
+[0.010611] (turtlebot4_factory_inspection) JobProgress: {'identifier': 'turtlebot4_factory_inspection', 'progress': 'build'}
+[0.011579] (turtlebot4_factory_inspection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection', '--', '-j8', '-l8'], 'cwd': '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '0'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jaeho'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jaeho'), ('OLDPWD', '/home/jaeho'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1020'), ('SYSTEMD_EXEC_PID', '1225'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3513'), ('_colcon_cd_root', '/home/jaeho/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/install:/home/jaeho/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jaeho'), ('JOURNAL_STREAM', '8:13012'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaeho'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jaeho/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jaeho:@/tmp/.ICE-unix/1188,unix/jaeho:/tmp/.ICE-unix/1188'), ('INVOCATION_ID', 'e91586fe8bad4f95b58efd5953a70e43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U2HA92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/sw_project_2025:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c979fc3d-a4a5-48ad-a9ff-d88736afc282'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jaeho/sw_projects/my_ros2_ws/install/turtlebot4_factory_inspection:/home/jaeho/sw_projects/my_ros2_ws/install/sw_project_2025:/opt/ros/humble')]), 'shell': False}
+[0.074790] (turtlebot4_factory_inspection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bt_runner\x1b[0m\n'}
+[0.099714] (-) TimerEvent: {}
+[0.122044] (turtlebot4_factory_inspection) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o\x1b[0m\n'}
+[0.199873] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.400636] (-) TimerEvent: {}
+[0.500984] (-) TimerEvent: {}
+[0.601359] (-) TimerEvent: {}
+[0.701704] (-) TimerEvent: {}
+[0.802088] (-) TimerEvent: {}
+[0.902350] (-) TimerEvent: {}
+[1.002641] (-) TimerEvent: {}
+[1.102949] (-) TimerEvent: {}
+[1.203256] (-) TimerEvent: {}
+[1.303539] (-) TimerEvent: {}
+[1.403847] (-) TimerEvent: {}
+[1.504229] (-) TimerEvent: {}
+[1.604536] (-) TimerEvent: {}
+[1.704893] (-) TimerEvent: {}
+[1.805192] (-) TimerEvent: {}
+[1.905524] (-) TimerEvent: {}
+[2.005804] (-) TimerEvent: {}
+[2.106098] (-) TimerEvent: {}
+[2.206465] (-) TimerEvent: {}
+[2.306852] (-) TimerEvent: {}
+[2.407217] (-) TimerEvent: {}
+[2.507553] (-) TimerEvent: {}
+[2.607855] (-) TimerEvent: {}
+[2.708149] (-) TimerEvent: {}
+[2.808441] (-) TimerEvent: {}
+[2.908796] (-) TimerEvent: {}
+[3.009112] (-) TimerEvent: {}
+[3.109541] (-) TimerEvent: {}
+[3.209883] (-) TimerEvent: {}
+[3.310189] (-) TimerEvent: {}
+[3.410521] (-) TimerEvent: {}
+[3.510950] (-) TimerEvent: {}
+[3.603819] (turtlebot4_factory_inspection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kturtlebot4_factory_inspection::bt_nodes::MoveToTarget::MoveToTarget(const string&, const BT::NodeConfiguration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.604031] (turtlebot4_factory_inspection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:17:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_ptr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.604144] (turtlebot4_factory_inspection) StderrLine: {'line': b'   17 |   \x1b[01;31m\x1b[Kclient_ptr_\x1b[m\x1b[K = rclcpp_action::create_client<NavigateToPose>(node_, "navigate_to_pose");\n'}
+[3.604228] (turtlebot4_factory_inspection) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.604307] (turtlebot4_factory_inspection) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kclient_\x1b[m\x1b[K\n'}
+[3.611092] (-) TimerEvent: {}
+[3.617670] (turtlebot4_factory_inspection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus turtlebot4_factory_inspection::bt_nodes::MoveToTarget::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.617834] (turtlebot4_factory_inspection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:33:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_ptr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.617896] (turtlebot4_factory_inspection) StderrLine: {'line': b'   33 |   if (!\x1b[01;31m\x1b[Kclient_ptr_\x1b[m\x1b[K->wait_for_action_server(std::chrono::seconds(5))) {\n'}
+[3.617949] (turtlebot4_factory_inspection) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.617999] (turtlebot4_factory_inspection) StderrLine: {'line': b'      |        \x1b[32m\x1b[Kclient_\x1b[m\x1b[K\n'}
+[3.632186] (turtlebot4_factory_inspection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:66:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_ptr_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.632416] (turtlebot4_factory_inspection) StderrLine: {'line': b'   66 |     auto send_goal_future = \x1b[01;31m\x1b[Kclient_ptr_\x1b[m\x1b[K->async_send_goal(goal_msg);\n'}
+[3.632514] (turtlebot4_factory_inspection) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.632602] (turtlebot4_factory_inspection) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kclient_\x1b[m\x1b[K\n'}
+[3.711228] (-) TimerEvent: {}
+[3.811647] (-) TimerEvent: {}
+[3.912064] (-) TimerEvent: {}
+[4.012478] (-) TimerEvent: {}
+[4.112839] (-) TimerEvent: {}
+[4.213099] (-) TimerEvent: {}
+[4.313449] (-) TimerEvent: {}
+[4.413890] (-) TimerEvent: {}
+[4.514276] (-) TimerEvent: {}
+[4.614648] (-) TimerEvent: {}
+[4.646244] (turtlebot4_factory_inspection) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:188: CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o] Error 1\n'}
+[4.646558] (turtlebot4_factory_inspection) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2\n'}
+[4.646704] (turtlebot4_factory_inspection) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.649058] (turtlebot4_factory_inspection) CommandEnded: {'returncode': 2}
+[4.660819] (turtlebot4_factory_inspection) JobEnded: {'identifier': 'turtlebot4_factory_inspection', 'rc': 2}
+[4.671379] (-) EventReactorShutdown: {}

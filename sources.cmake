@@ -6,7 +6,7 @@ set(SOURCE_FILES
   bt_nodes/InitialSetup.cpp
   bt_nodes/IsArrivedAtBase.cpp
   bt_nodes/IsArrivedAtTarget.cpp
-  bt_nodes/IsNomoreTask.cpp
+  bt_nodes/IsNoMoreTask.cpp
   bt_nodes/MoveToTarget.cpp
   bt_nodes/ReturnToBase.cpp
   bt_nodes/SetAngle.cpp
