@@ -59,7 +59,7 @@ BT::NodeStatus IsArrivedAtBase::tick()
 
   RCLCPP_INFO(node_->get_logger(), "[IsArrivedAtBase] 📍 Base까지 거리: %.3f m", distance);
 
-  if (distance < 0.2) {
+  if (distance < 0.3) {
     RCLCPP_INFO(node_->get_logger(), "[IsArrivedAtBase] ✅ Base에 도착");
     return BT::NodeStatus::SUCCESS;
   } else {
