@@ -1,12 +1,12 @@
-#include "turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.hpp"
+#include "turtlebot4_factory_inspection/bt_nodes/IsNoMoreTask.hpp"
 #include <rclcpp/rclcpp.hpp>
 
-namespace turtlebot4_factory_inspection::bt_nodes {
+namespace turtlebot4_factory_inspection {
 
-IsNomoreTask::IsNomoreTask(const std::string& name, const BT::NodeConfiguration& config)
+IsNoMoreTask::IsNoMoreTask(const std::string& name, const BT::NodeConfiguration& config)
 : BT::ConditionNode(name, config) {}
 
-BT::PortsList IsNomoreTask::providedPorts()
+BT::PortsList IsNoMoreTask::providedPorts()
 {
   return {
     BT::InputPort<std::vector<geometry_msgs::msg::PoseStamped>>("task_list"),
@@ -15,21 +15,21 @@ BT::PortsList IsNomoreTask::providedPorts()
   };
 }
 
-BT::NodeStatus IsNomoreTask::tick()
+BT::NodeStatus IsNoMoreTask::tick()
 {
   auto task_list_result = getInput<std::vector<geometry_msgs::msg::PoseStamped>>("task_list");
   auto index_result = getInput<int>("current_index");
 
   if (!task_list_result || !index_result)
   {
-    RCLCPP_ERROR(rclcpp::get_logger("IsNomoreTask"), "❌ Missing required inputs: task_list or current_index");
+    RCLCPP_ERROR(rclcpp::get_logger("IsNoMoreTask"), "❌ Missing required inputs: task_list or current_index");
     return BT::NodeStatus::FAILURE;
   }
 
   const auto& task_list = task_list_result.value();
   int index = index_result.value();
 
-  RCLCPP_INFO(rclcpp::get_logger("IsNomoreTask"),
+  RCLCPP_INFO(rclcpp::get_logger("IsNoMoreTask"),
               "📦 Checking task status... total: %lu, current_index: %d",
               task_list.size(), index);
 
@@ -38,15 +38,15 @@ BT::NodeStatus IsNomoreTask::tick()
 
   if (index >= static_cast<int>(task_list.size()))
   {
-    RCLCPP_INFO(rclcpp::get_logger("IsNomoreTask"), "✅ No more tasks remaining.");
+    RCLCPP_INFO(rclcpp::get_logger("IsNoMoreTask"), "✅ No more tasks remaining.");
     return BT::NodeStatus::SUCCESS;
   }
   else
   {
-    RCLCPP_INFO(rclcpp::get_logger("IsNomoreTask"), "🕒 Tasks remaining.");
+    RCLCPP_INFO(rclcpp::get_logger("IsNoMoreTask"), "🕒 Tasks remaining.");
+    setOutput("current_index", index);
     return BT::NodeStatus::FAILURE;
   }
 }
 
-}  // namespace turtlebot4_factory_inspection::bt_nodes
-
+}  // namespace turtlebot4_factory_inspection

@@ -1,7 +1,7 @@
 #include "turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.hpp"
-#include <rclcpp/rclcpp.hpp>
 
-namespace turtlebot4_factory_inspection::bt_nodes {
+namespace turtlebot4_factory_inspection
+{
 
 AdvanceIndex::AdvanceIndex(const std::string& name, const BT::NodeConfiguration& config)
 : BT::SyncActionNode(name, config)
@@ -13,7 +13,7 @@ BT::PortsList AdvanceIndex::providedPorts()
 {
   return {
     BT::InputPort<int>("current_index"),
-    BT::OutputPort<int>("updated_index")
+    BT::OutputPort<int>("updated_index")  // ✅ 포트 이름 분리!
   };
 }
 
@@ -36,7 +36,7 @@ BT::NodeStatus AdvanceIndex::tick()
 
   RCLCPP_INFO(node_->get_logger(), "[AdvanceIndex] ✅ Advanced index to: %d", index);
 
-  return BT::NodeStatus::SUCCESS;
+  return BT::NodeStatus::FAILURE;
 }
 
-}  // namespace turtlebot4_factory_inspection::bt_nodes
+}  // namespace turtlebot4_factory_inspection

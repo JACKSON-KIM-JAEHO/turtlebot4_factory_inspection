@@ -2,18 +2,49 @@
 <root BTCPP_format="4"
       main_tree_to_execute="MainTree">
   <BehaviorTree ID="MainTree">
-    <ReactiveFallback>
-      <IsArrivedAtTarget/>
-      <MoveToTarget/>
-    </ReactiveFallback>
+    <Sequence>
+      <Fallback>
+        <CheckIfSetupDone flag="{initial_setup_done}"/>
+        <InitialSetup
+            file_path="{waypoints_file_path}"
+            task_list="{task_list}"
+            current_index="{current_index}"
+            flag="{initial_setup_done}"/>
+      </Fallback>
+      <Fallback>
+        <IsNomoreTask task_list="{task_list}" current_index="{current_index}"/>
+        <Sequence>
+          <ReactiveFallback>
+            <IsArrivedAtTarget task_list="{task_list}" current_index="{current_index}"/>
+            <MoveToTarget
+                task_list="{task_list}"
+                current_index="{current_index}"
+                is_arrived="{is_arrived}"
+                faillist="{faillist}"
+                angle="{angle}"/>
+          </ReactiveFallback>
+          <Sequence>
+            <AdvanceIndex current_index="{current_index}" updated_index="{current_index}"/>
+          </Sequence>
+        </Sequence>
+      </Fallback>
+      <ReactiveFallback>
+        <IsArrivedAtBase/>
+        <ReturnToBase/>
+      </ReactiveFallback>
+
+    </Sequence>
   </BehaviorTree>
 
   <!-- Description of Node Models (used by Groot) -->
   <TreeNodesModel>
-    <Condition ID="IsArrivedAtTarget"
-               editable="true"/>
-    <Action ID="MoveToTarget"
-            editable="true"/>
+    <Action ID="AdvanceIndex" editable="true"/>
+    <Condition ID="CheckIfSetupDone" editable="true"/>
+    <Action ID="InitialSetup" editable="true"/>
+    <Condition ID="IsArrivedAtBase" editable="true"/>
+    <Condition ID="IsArrivedAtTarget" editable="true"/>
+    <Condition ID="IsNomoreTask" editable="true"/>
+    <Action ID="MoveToTarget" editable="true"/>
+    <Action ID="ReturnToBase" editable="true"/>
   </TreeNodesModel>
-
 </root>

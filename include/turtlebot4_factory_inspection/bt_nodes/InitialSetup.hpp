@@ -1,10 +1,11 @@
-#pragma once
+#ifndef TURTLEBOT4_FACTORY_INSPECTION__BT_NODES__INITIAL_SETUP_HPP_
+#define STURTLEBOT4_FACTORY_INSPECTION__BT_NODES__INITIAL_SETUP_HPP_
 
 #include <behaviortree_cpp_v3/action_node.h>
-#include <geometry_msgs/msg/pose_stamped.hpp>
 #include <rclcpp/rclcpp.hpp>
+#include <geometry_msgs/msg/pose_stamped.hpp>
 
-namespace turtlebot4_factory_inspection::bt_nodes
+namespace turtlebot4_factory_inspection
 {
 
 class InitialSetup : public BT::SyncActionNode
@@ -20,4 +21,6 @@ private:
   rclcpp::Node::SharedPtr node_;
 };
 
-}
+}  // namespace turtlebot4_factory_inspection
+
+#endif  // TURTLEBOT4_FACTORY_INSPECTION__BT_NODES__INITIAL_SETUP_HPP_

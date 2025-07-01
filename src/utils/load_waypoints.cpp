@@ -5,7 +5,7 @@
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 
-namespace turtlebot4_factory_inspection::bt_nodes {
+namespace turtlebot4_factory_inspection {
 
 std::pair<std::vector<geometry_msgs::msg::PoseStamped>, std::vector<double>> load_waypoints_from_yaml(const std::string& file_path)
 {
@@ -35,4 +35,4 @@ std::pair<std::vector<geometry_msgs::msg::PoseStamped>, std::vector<double>> loa
   return {waypoints, yaw_list};
 }
 
-}  
+}  // namespace turtlebot4_factory_inspection
