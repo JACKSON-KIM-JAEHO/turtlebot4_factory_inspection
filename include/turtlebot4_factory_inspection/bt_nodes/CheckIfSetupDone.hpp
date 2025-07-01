@@ -1,9 +1,9 @@
-#ifndef TURTLEBOT4_FACTORY_INSPECTION_CHECK_IF_SETUP_DONE_HPP_
-#define TURTLEBOT4_FACTORY_INSPECTION_CHECK_IF_SETUP_DONE_HPP_
+#ifndef TURTLEBOT4_FACTORY_INSPECTION_BT_NODES_CHECKIFSETUPDONE_HPP_
+#define TURTLEBOT4_FACTORY_INSPECTION_BT_NODES_CHECKIFSETUPDONE_HPP_
 
 #include <behaviortree_cpp_v3/condition_node.h>
 
-namespace turtlebot4_factory_inspection::bt_nodes {
+namespace turtlebot4_factory_inspection {
 
 class CheckIfSetupDone : public BT::ConditionNode
 {
@@ -15,4 +15,4 @@ public:
 
 }  // namespace turtlebot4_factory_inspection
 
-#endif  // TURTLEBOT4_FACTORY_INSPECTION_CHECK_IF_SETUP_DONE_HPP_
+#endif  // TURTLEBOT4_FACTORY_INSPECTION_BT_NODES_CHECKIFSETUPDONE_HPP_
