@@ -84,7 +84,7 @@ install(DIRECTORY include/
 )
 
 install(DIRECTORY data/
-  DESTINATION share/${PROJECT_NAME}
+  DESTINATION share/${PROJECT_NAME}/data
 )
 
 # export dependencies and finish
