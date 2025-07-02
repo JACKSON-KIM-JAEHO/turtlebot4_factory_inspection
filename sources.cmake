@@ -12,4 +12,5 @@ set(SOURCE_FILES
   bt_nodes/SetAngle.cpp
   bt_nodes/SkipTarget.cpp
   bt_nodes/TakePhoto.cpp
+  bt_nodes/WaitAfterPhoto.cpp
 )

@@ -36,7 +36,6 @@ void TakePhoto::imageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
 BT::NodeStatus TakePhoto::tick()
 {
   try {
-    // 1) 입력 읽기
     std::string base_path;
     if (!getInput("save_path", base_path)) {
       RCLCPP_ERROR(node_->get_logger(), "[TakePhoto] ❌ Missing input [save_path]");
@@ -54,24 +53,33 @@ BT::NodeStatus TakePhoto::tick()
       RCLCPP_WARN(node_->get_logger(), "[TakePhoto] ⚠️ Missing input [is_arrived], defaulting to true");
     }
 
-    // 2) 이미지 대기
     RCLCPP_INFO(node_->get_logger(), "📸 Waiting for image...");
     for (int i = 0; i < 100 && !latest_image_; ++i) {
       rclcpp::spin_some(node_);
       std::this_thread::sleep_for(std::chrono::milliseconds(100));
     }
 
-    geometry_msgs::msg::Pose empty_pose;
-
     if (!latest_image_) {
       RCLCPP_WARN(node_->get_logger(), "📛 No image received");
-      saveMetadata(base_path, index, empty_pose, false, "No image received");
+      saveMetadata(base_path, index, geometry_msgs::msg::Pose(), false, "No image received");
       return BT::NodeStatus::SUCCESS;
     }
 
     auto cv_img = cv_bridge::toCvCopy(latest_image_, "bgr8");
 
-    // 3) 저장 경로 결정
+    // Get current pose
+    geometry_msgs::msg::Pose robot_pose;
+    try {
+      auto tf_msg = tf_buffer_->lookupTransform("map", "base_link", tf2::TimePointZero, tf2::durationFromSec(1.0));
+      tf2::Transform tf2_transform;
+      tf2::fromMsg(tf_msg.transform, tf2_transform);
+      tf2::toMsg(tf2_transform, robot_pose);
+    } catch (const tf2::TransformException& ex) {
+      RCLCPP_WARN(node_->get_logger(), "⚠️ TF lookup failed: %s", ex.what());
+      robot_pose = geometry_msgs::msg::Pose();
+    }
+
+    // Set save path
     std::string folder, filename;
     if (!is_arrived) {
       folder = base_path + "/failed";
@@ -84,19 +92,17 @@ BT::NodeStatus TakePhoto::tick()
     std::filesystem::create_directories(folder);
     std::string full_path = folder + "/" + filename;
 
-    // 4) 저장 시도
     if (cv::imwrite(full_path, cv_img->image)) {
       RCLCPP_INFO(node_->get_logger(), "✅ Saved image: %s", full_path.c_str());
-      saveMetadata(base_path, index, empty_pose, is_arrived,
-                   is_arrived ? "" : "Not arrived at target");
+      saveMetadata(base_path, index, robot_pose, is_arrived, is_arrived ? "" : "Not arrived at target");
     } else {
       RCLCPP_ERROR(node_->get_logger(), "❌ Failed to save image");
-      saveMetadata(base_path, index, empty_pose, false, "Image save failed");
+      saveMetadata(base_path, index, robot_pose, false, "Image save failed");
     }
 
     std::this_thread::sleep_for(std::chrono::seconds(5));
-
     latest_image_.reset();
+
     return BT::NodeStatus::SUCCESS;
 
   } catch (const std::exception& e) {
@@ -124,6 +130,11 @@ void TakePhoto::saveMetadata(
 
   std::filesystem::create_directories(folder.str());
   std::ofstream fout(folder.str() + "/" + filename.str());
+  if (!fout.is_open()) {
+    RCLCPP_ERROR(node_->get_logger(), "❌ Failed to open metadata file: %s",
+                 (folder.str() + "/" + filename.str()).c_str());
+    return;
+  }
 
   fout << "id: " << index << "\n";
   fout << "timestamp: \"" << std::put_time(std::localtime(&time), "%Y-%m-%d %H:%M:%S") << "\"\n";

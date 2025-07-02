@@ -16,6 +16,7 @@
 #include "turtlebot4_factory_inspection/bt_nodes/IsNoMoreTask.hpp"
 #include "turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.hpp"
 #include "turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.hpp"
+#include "turtlebot4_factory_inspection/bt_nodes/WaitAfterPhoto.hpp"
 
 using namespace turtlebot4_factory_inspection;
 
@@ -36,6 +37,9 @@ int main(int argc, char **argv)
   factory.registerNodeType<IsNoMoreTask>("IsNoMoreTask");
   factory.registerNodeType<AdvanceIndex>("AdvanceIndex");
   factory.registerNodeType<CheckIfSetupDone>("CheckIfSetupDone");
+  factory.registerNodeType<WaitAfterPhoto>("WaitAfterPhoto");
+
+
   // ✅ Blackboard 생성 및 경로 설정
   auto blackboard = BT::Blackboard::create();
   std::string package_path = ament_index_cpp::get_package_share_directory("turtlebot4_factory_inspection");
