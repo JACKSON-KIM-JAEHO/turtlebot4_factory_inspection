@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot4_factory_inspection</name>
+  <version>0.1.0</version>
+  <description>Behavior Tree based ROS 2 control for TurtleBot4 with Nav2.</description>
+
+  <maintainer email="woghjaeho1@gmail.com">jaeho</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드 도구 의존성 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 빌드 시 필요한 의존성 -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>rclcpp_action</build_depend>
+  <build_depend>nav2_msgs</build_depend>
+  <build_depend>behaviortree_cpp_v3</build_depend>
+
+  <!-- 실행 시 필요한 의존성 -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>rclcpp_action</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>behaviortree_cpp_v3</exec_depend>
+
+  <!-- 메시지나 액션 인터페이스를 자동으로 감지 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- 테스트나 문서화에 필요할 경우 -->
+  <!-- <test_depend>ament_lint_auto</test_depend> -->
+
+  <export>
+    <!-- 다른 패키지가 의존성 자동 인식할 수 있게 -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

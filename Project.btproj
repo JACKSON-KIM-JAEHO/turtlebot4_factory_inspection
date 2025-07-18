@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" project_name="Project">
+    <include path="trees/main_tree.xml"/>
+    <!-- Description of Node Models (used by Groot) -->
+    <TreeNodesModel>
+        <Condition ID="IsArrivedAtTarget" editable="true"/>
+        <Action ID="MoveToTarget" editable="true"/>
+    </TreeNodesModel>
+</root>

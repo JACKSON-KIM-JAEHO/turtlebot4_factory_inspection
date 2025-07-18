@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection/bt_runner" "TARGETS" "bt_runner" "DESTINATION" "lib/turtlebot4_factory_inspection")

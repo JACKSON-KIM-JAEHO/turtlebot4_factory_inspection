@@ -1,0 +1,283 @@
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/IsArrivedAtBase.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_factory_inspection/IsArrivedAtBase.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/AdvanceIndex.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_factory_inspection/AdvanceIndex.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/utils/load_waypoints.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/utils/load_waypoints.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_factory_inspection/utils/load_waypoints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/CheckIfSetupDone.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_factory_inspection/CheckIfSetupDone.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:146: CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:90: CMakeFiles/bt_runner.dir/src/utils/load_waypoints.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:104: CMakeFiles/bt_runner.dir/bt_nodes/AdvanceIndex.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:118: CMakeFiles/bt_runner.dir/bt_nodes/CheckIfSetupDone.cpp.o] Error 1
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/IsNomoreTask.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_factory_inspection/IsNomoreTask.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:174: CMakeFiles/bt_runner.dir/bt_nodes/IsNomoreTask.cpp.o] Error 1
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/IsArrivedAtTarget.hpp: No such file or directory
+    1 | #include [01;31m[K"turtlebot4_factory_inspection/IsArrivedAtTarget.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:160: CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtTarget.cpp.o] Error 1
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/InitialSetup.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kturtlebot4_factory_inspection/utils/load_waypoints.hpp: No such file or directory
+    2 | #include [01;31m[K"turtlebot4_factory_inspection/utils/load_waypoints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:132: CMakeFiles/bt_runner.dir/bt_nodes/InitialSetup.cpp.o] Error 1
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:28:28:[m[K [01;31m[Kerror: [m[K‘[01m[KAdvanceIndex[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::AdvanceIndex[m[K’?
+   28 |   factory.registerNodeType<[01;31m[KAdvanceIndex[m[K>("AdvanceIndex");
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::AdvanceIndex[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:2[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::AdvanceIndex[m[K’ declared here
+    8 | class [01;36m[KAdvanceIndex[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:28:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [13])[m[K’
+   28 |   [01;31m[Kfactory.registerNodeType<AdvanceIndex>("AdvanceIndex")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:28:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |   [01;31m[Kfactory.registerNodeType<AdvanceIndex>("AdvanceIndex")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:28:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |   [01;31m[Kfactory.registerNodeType<AdvanceIndex>("AdvanceIndex")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:29:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCheckIfSetupDone[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::CheckIfSetupDone[m[K’?
+   29 |   factory.registerNodeType<[01;31m[KCheckIfSetupDone[m[K>("CheckIfSetupDone");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::CheckIfSetupDone[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:3[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::CheckIfSetupDone[m[K’ declared here
+    8 | class [01;36m[KCheckIfSetupDone[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:29:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [17])[m[K’
+   29 |   [01;31m[Kfactory.registerNodeType<CheckIfSetupDone>("CheckIfSetupDone")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:29:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |   [01;31m[Kfactory.registerNodeType<CheckIfSetupDone>("CheckIfSetupDone")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:29:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |   [01;31m[Kfactory.registerNodeType<CheckIfSetupDone>("CheckIfSetupDone")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:31:28:[m[K [01;31m[Kerror: [m[K‘[01m[KIsArrivedAtBase[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::IsArrivedAtBase[m[K’?
+   31 |   factory.registerNodeType<[01;31m[KIsArrivedAtBase[m[K>("IsArrivedAtBase");
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::IsArrivedAtBase[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:5[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::IsArrivedAtBase[m[K’ declared here
+    8 | class [01;36m[KIsArrivedAtBase[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:31:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [16])[m[K’
+   31 |   [01;31m[Kfactory.registerNodeType<IsArrivedAtBase>("IsArrivedAtBase")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:31:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   [01;31m[Kfactory.registerNodeType<IsArrivedAtBase>("IsArrivedAtBase")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:31:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   31 |   [01;31m[Kfactory.registerNodeType<IsArrivedAtBase>("IsArrivedAtBase")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:32:28:[m[K [01;31m[Kerror: [m[K‘[01m[KIsArrivedAtTarget[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::IsArrivedAtTarget[m[K’?
+   32 |   factory.registerNodeType<[01;31m[KIsArrivedAtTarget[m[K>("IsArrivedAtTarget");
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::IsArrivedAtTarget[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:6[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.hpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::IsArrivedAtTarget[m[K’ declared here
+   13 | class [01;36m[KIsArrivedAtTarget[m[K : public BT::ConditionNode
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:32:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [18])[m[K’
+   32 |   [01;31m[Kfactory.registerNodeType<IsArrivedAtTarget>("IsArrivedAtTarget")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:32:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   [01;31m[Kfactory.registerNodeType<IsArrivedAtTarget>("IsArrivedAtTarget")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:32:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |   [01;31m[Kfactory.registerNodeType<IsArrivedAtTarget>("IsArrivedAtTarget")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:34:28:[m[K [01;31m[Kerror: [m[K‘[01m[KIsNomoreTask[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::IsNomoreTask[m[K’?
+   34 |   factory.registerNodeType<[01;31m[KIsNomoreTask[m[K>("IsNomoreTask");
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::IsNomoreTask[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:7[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::IsNomoreTask[m[K’ declared here
+    8 | class [01;36m[KIsNomoreTask[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:34:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [13])[m[K’
+   34 |   [01;31m[Kfactory.registerNodeType<IsNomoreTask>("IsNomoreTask")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:34:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |   [01;31m[Kfactory.registerNodeType<IsNomoreTask>("IsNomoreTask")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:34:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |   [01;31m[Kfactory.registerNodeType<IsNomoreTask>("IsNomoreTask")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:35:28:[m[K [01;31m[Kerror: [m[K‘[01m[KReturnToBase[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::ReturnToBase[m[K’?
+   35 |   factory.registerNodeType<[01;31m[KReturnToBase[m[K>("ReturnToBase");
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::ReturnToBase[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:9[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/ReturnToBase.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::ReturnToBase[m[K’ declared here
+    8 | class [01;36m[KReturnToBase[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:35:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [13])[m[K’
+   35 |   [01;31m[Kfactory.registerNodeType<ReturnToBase>("ReturnToBase")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:35:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |   [01;31m[Kfactory.registerNodeType<ReturnToBase>("ReturnToBase")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:35:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   35 |   [01;31m[Kfactory.registerNodeType<ReturnToBase>("ReturnToBase")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:36:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSetAngle[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::SetAngle[m[K’?
+   36 |   factory.registerNodeType<[01;31m[KSetAngle[m[K>("SetAngle");
+      |                            [01;31m[K^~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::SetAngle[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:10[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/SetAngle.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::SetAngle[m[K’ declared here
+    8 | class [01;36m[KSetAngle[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:36:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [9])[m[K’
+   36 |   [01;31m[Kfactory.registerNodeType<SetAngle>("SetAngle")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:36:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   [01;31m[Kfactory.registerNodeType<SetAngle>("SetAngle")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:36:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   [01;31m[Kfactory.registerNodeType<SetAngle>("SetAngle")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:37:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSkipTarget[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::SkipTarget[m[K’?
+   37 |   factory.registerNodeType<[01;31m[KSkipTarget[m[K>("SkipTarget");
+      |                            [01;31m[K^~~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::SkipTarget[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:11[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/SkipTarget.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::SkipTarget[m[K’ declared here
+    8 | class [01;36m[KSkipTarget[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:37:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [11])[m[K’
+   37 |   [01;31m[Kfactory.registerNodeType<SkipTarget>("SkipTarget")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:37:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   [01;31m[Kfactory.registerNodeType<SkipTarget>("SkipTarget")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:37:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   [01;31m[Kfactory.registerNodeType<SkipTarget>("SkipTarget")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[KTakePhoto[m[K’ was not declared in this scope; did you mean ‘[01m[Kturtlebot4_factory_inspection::TakePhoto[m[K’?
+   38 |   factory.registerNodeType<[01;31m[KTakePhoto[m[K>("TakePhoto");
+      |                            [01;31m[K^~~~~~~~~[m[K
+      |                            [32m[Kturtlebot4_factory_inspection::TakePhoto[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:12[m[K:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/include/turtlebot4_factory_inspection/bt_nodes/TakePhoto.hpp:8:7:[m[K [01;36m[Knote: [m[K‘[01m[Kturtlebot4_factory_inspection::TakePhoto[m[K’ declared here
+    8 | class [01;36m[KTakePhoto[m[K : public BT::SyncActionNode
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:38:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerNodeType<<expression error> >(const char [10])[m[K’
+   38 |   [01;31m[Kfactory.registerNodeType<TakePhoto>("TakePhoto")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&)[m[K’
+  364 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:364:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:38:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   [01;31m[Kfactory.registerNodeType<TakePhoto>("TakePhoto")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerNodeType(const string&, BT::PortsList)[m[K’
+  422 |   void [01;36m[KregisterNodeType[m[K(const std::string& ID, PortsList ports)
+      |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:422:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/src/bt_runner.cpp:38:38:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   [01;31m[Kfactory.registerNodeType<TakePhoto>("TakePhoto")[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:76: CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

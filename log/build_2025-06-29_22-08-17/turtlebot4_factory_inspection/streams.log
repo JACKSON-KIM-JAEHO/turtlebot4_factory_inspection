@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target bt_runner[0m
+[0.092s] [ 14%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/src/bt_runner.cpp.o[0m
+[0.092s] [ 14%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o[0m
+[7.056s] [ 21%] [32m[1mLinking CXX executable bt_runner[0m
+[8.518s] [100%] Built target bt_runner
+[8.529s] Invoked command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection -- -j8 -l8
+[8.540s] Invoking command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection
+[8.547s] -- Install configuration: ""
+[8.547s] -- Installing: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/lib/turtlebot4_factory_inspection/bt_runner
+[8.553s] -- Set runtime path of "/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/lib/turtlebot4_factory_inspection/bt_runner" to ""
+[8.553s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include/
+[8.553s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/CheckIfSetupDone.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/InitialSetup.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/SetAngle.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/TakePhoto.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/IsArrivedAtTarget.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/IsNomoreTask.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/SkipTarget.hpp
+[8.554s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/ReturnToBase.hpp
+[8.554s] -- Installing: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/MoveToTarget.hpp
+[8.555s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/AdvanceIndex.hpp
+[8.555s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/bt_nodes/IsArrivedAtBase.hpp
+[8.555s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/utils
+[8.555s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/include//turtlebot4_factory_inspection/utils/load_waypoints.hpp
+[8.555s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees
+[8.555s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees/main_tree.xml
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees/test_tree.xml
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/trees/main_tree copy.xml
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/data
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/data/base_location.yaml
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/data/waypoints.yaml
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/ament_index/resource_index/package_run_dependencies/turtlebot4_factory_inspection
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/ament_index/resource_index/parent_prefix_path/turtlebot4_factory_inspection
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/ament_prefix_path.sh
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/ament_prefix_path.dsv
+[8.556s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/path.sh
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/environment/path.dsv
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.bash
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.sh
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.zsh
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/local_setup.dsv
+[8.557s] -- Installing: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/package.dsv
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/ament_index/resource_index/packages/turtlebot4_factory_inspection
+[8.557s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.558s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/cmake/turtlebot4_factory_inspectionConfig.cmake
+[8.558s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/cmake/turtlebot4_factory_inspectionConfig-version.cmake
+[8.558s] -- Up-to-date: /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/install/turtlebot4_factory_inspection/share/turtlebot4_factory_inspection/package.xml
+[8.559s] Invoked command in '/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/build/turtlebot4_factory_inspection

@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target bt_runner[0m
+[  7%] [32mBuilding CXX object CMakeFiles/bt_runner.dir/bt_nodes/IsArrivedAtBase.cpp.o[0m
+[ 14%] [32m[1mLinking CXX executable bt_runner[0m

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence>
+      <Fallback>
+        <CheckIfSetupDone flag="{initial_setup_done}"/>
+        <InitialSetup
+            file_path="{waypoints_file_path}"
+            task_list="{task_list}"
+            current_index="{current_index}"
+            flag="{initial_setup_done}" />
+      </Fallback>
+      <Fallback>
+        <IsNoMoreTask task_list="{task_list}" current_index="{current_index}"/>
+        <Sequence>
+          <ReactiveFallback>
+            <IsArrivedAtTarget task_list="{task_list}" current_index="{current_index}"/>
+            <MoveToTarget task_list="{task_list}" current_index="{current_index}" faillist="{faillist}" is_arrived="{is_arrived}" angle="{angle}"/>
+            <SkipTarget/>
+          </ReactiveFallback>
+          <SetAngle task_yaw_list="{task_yaw_list}" current_index="{current_index}" angle="{angle}"/>
+          <WaitAfterPhoto wait_time="4"/>
+          <TakePhoto current_index="{current_index}" save_path="/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/object" is_arrived="{is_arrived}"/>
+          <AdvanceIndex current_index="{current_index}" updated_index="{current_index}"/>
+        </Sequence>
+      </Fallback>
+      <ReactiveFallback>
+        <IsArrivedAtBase/>
+        <ReturnToBase/>
+      </ReactiveFallback>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="AdvanceIndex"
+            editable="true"/>
+    <Condition ID="CheckIfSetupDone"
+               editable="true"/>
+    <Action ID="InitialSetup"
+            editable="true"/>
+    <Condition ID="IsArrivedAtBase"
+               editable="true"/>
+    <Condition ID="IsArrivedAtTarget"
+               editable="true"/>
+    <Condition ID="IsNoMoreTask"
+               editable="true"/>
+    <Action ID="MoveToTarget"
+            editable="true"/>
+    <Action ID="ReturnToBase"
+            editable="true"/>
+    <Action ID="SetAngle"
+            editable="true"/>
+    <Action ID="SkipTarget"
+            editable="true"/>
+    <Action ID="TakePhoto"
+            editable="true"/>
+    <Action ID="WaitAfterPhoto"
+            editable="true"/>
+  </TreeNodesModel>
+
+</root>

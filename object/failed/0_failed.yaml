@@ -1,0 +1,14 @@
+id: 0
+timestamp: "2025-07-02 13:49:49"
+position:
+  x: 0
+  y: 0
+  z: 0
+rotation:
+  x: 0
+  y: 0
+  z: 0
+  w: 1
+status: "failed"
+filename: "0_failed.jpg"
+reason: "No image received"

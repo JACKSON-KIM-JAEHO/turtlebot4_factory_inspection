@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence>
+      <Fallback>
+        <CheckIfSetupDone/>
+        <InitialSetup/>
+      </Fallback>
+      <Fallback>
+        <IsNomoreTask/>
+        <Sequence>
+          <ReactiveFallback>
+            <IsArrivedAtTarget/>
+            <MoveToTarget/>
+          </ReactiveFallback>
+          <Sequence>
+            <AdvanceIndex/>
+          </Sequence>
+        </Sequence>
+      </Fallback>
+      <ReactiveFallback>
+        <IsArrivedAtBase/>
+        <ReturnToBase/>
+      </ReactiveFallback>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="AdvanceIndex"
+            editable="true"/>
+    <Condition ID="CheckIfSetupDone"
+               editable="true"/>
+    <Action ID="InitialSetup"
+            editable="true"/>
+    <Condition ID="IsArrivedAtBase"
+               editable="true"/>
+    <Condition ID="IsArrivedAtTarget"
+               editable="true"/>
+    <Condition ID="IsNomoreTask"
+               editable="true"/>
+    <Action ID="MoveToTarget"
+            editable="true"/>
+    <Action ID="ReturnToBase"
+            editable="true"/>
+  </TreeNodesModel>
+
+</root>

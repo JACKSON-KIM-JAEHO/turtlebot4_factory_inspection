@@ -1,0 +1,17 @@
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:[m[K In constructor ‘[01m[Kturtlebot4_factory_inspection::bt_nodes::MoveToTarget::MoveToTarget(const string&, const BT::NodeConfiguration&)[m[K’:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_ptr_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   17 |   [01;31m[Kclient_ptr_[m[K = rclcpp_action::create_client<NavigateToPose>(node_, "navigate_to_pose");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[Kclient_[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus turtlebot4_factory_inspection::bt_nodes::MoveToTarget::tick()[m[K’:
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:33:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_ptr_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   33 |   if (![01;31m[Kclient_ptr_[m[K->wait_for_action_server(std::chrono::seconds(5))) {
+      |        [01;31m[K^~~~~~~~~~~[m[K
+      |        [32m[Kclient_[m[K
+[01m[K/home/jaeho/sw_projects/my_ros2_ws/src/turtlebot4_factory_inspection/bt_nodes/MoveToTarget.cpp:66:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_ptr_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   66 |     auto send_goal_future = [01;31m[Kclient_ptr_[m[K->async_send_goal(goal_msg);
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+      |                             [32m[Kclient_[m[K
+gmake[2]: *** [CMakeFiles/bt_runner.dir/build.make:188: CMakeFiles/bt_runner.dir/bt_nodes/MoveToTarget.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bt_runner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
